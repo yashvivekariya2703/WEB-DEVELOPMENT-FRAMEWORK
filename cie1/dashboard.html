@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <Style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+                font-family: 'Times New Roman', Times, serif;
+                background-color: azure;
+                color: darkslateblue;
+        }
+        nav {
+                background-color: #151837;
+                text-align: center;
+                padding: 12px;
+        }
+        nav a {
+                text-decoration: none;
+                color: white;
+                margin: 0 14px;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 6px 12px;
+                border-radius: 5px;
+        }
+        nav a:hover,
+        nav a.active {
+                background-color: rgb(255, 0, 76);
+                color: #151837;
+        }
+        .clubs {
+                display: flex;
+                justify-content:space-around;
+                margin: 30px;
+        }
+        .club-card {
+                 background: #f9f9f9;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                width: 30%;
+                padding: 15px;
+                text-align: center;
+        }
+        .club-card:hover {
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .club-card img {
+                width: 100%;
+                height: 150px;
+                border-radius: 6px;
+                margin-bottom: 10px;
+        }
+        .club-card button {
+                background-color: #004466;
+                color: white;
+                border: none;
+                padding: 8px 15px;
+                border-radius: 4px;
+        }
+        .club-card button:hover {
+                background-color: rgb(255, 0, 76);
+                color: black;
+        }
+        .gallery {
+                display: flex;
+                justify-content: center;
+                margin: 30px;
+                gap: 15px;
+        }
+        .gallery img {
+                width: 200px;
+                height: 150px;
+                object-fit: cover;
+                border: 2px solid #ccc;
+                border-radius: 6px;
+        }
+      .gallery img:hover {
+                border-color: #004466;
+        }
+            footer {
+                    background-color: #1B1F44;
+                    color: white;
+                    text-align: center;
+                    padding: 14px;
+                    margin-top: auto;
+                    font-size: 14px;
+            }
+
+
+    </Style>
+</head>
+<body>
+    <div>
+        <h1 style="width: auto;height:100px;text-align: center;color: darkslateblue;background-color: aliceblue;font-size:50px;text;"> CHARUSAT</h1>
+    </div>
+    <nav>
+        <a href="/cie1/home.html">HOME</a>
+        <a href="/cie1/club.html">CLUB</a>
+        <a href="/cie1/gallery.html">GALLERY</a>
+        <a href="/cie1/contact.html">CONTACT</a>
+        
+    </nav>
+    <section class="clubs">
+        <div class="club-card">
+            <img src="/cie1\images\technical-club.webp" alt="TECHNICAL CLUB">
+            <h2>TECHNICAL CLUB</h2>
+            <P>Organizes workshops, seminars, and tech talks to enhance technical knowledge among students.</P>
+            <button>view details</button>
+        </div>
+        <div class="club-card">
+            <img src="/cie1/images/coding club.jpeg" alt="CODING CLUB">
+            <h2>CODING CLUB</h2>
+            <P>Organizes workshops, seminars, and tech talks to enhance technical knowledge among students.</P>
+            <button>view details</button>
+        </div>
+        <div class="club-card">
+            <img src="/cie1/images/robotics club.jpeg" alt="ROBOTICS CLUB">
+            <h2>Robotics CLUB</h2>
+            <P>Organizes workshops, seminars, and tech talks to enhance technical knowledge among students.</P>
+            <button>view details</button>
+        </div>
+    </section>
+    <section class="gallery">
+        <img src="/cie1/images/technical-club.webp" alt="technical">
+        <img src="/cie1/images/coding club.jpeg" alt="Hackathon">
+        <img src="/cie1/images/robotics club.jpeg" alt="Robotics Event">
+        <img src="/cie1/images/club.webp" alt="Club Meetup">
+  </section>
+
+    <footer>
+        &copy; CHARUSAT, Anand College Club Activities – 2026
+    </footer>
+</body>
+</html>
