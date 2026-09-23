@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+
+   
+</head>
+
+<body>
+     <!-- HEADER -->
+    <iframe
+        src="/pages/header.html"
+        class="header-frame">
+    </iframe>
+
+<div class="container">
+    <h2>Course Registration Form</h2>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number" required>
+
+        <label>Select Course</label>
+        <select required>
+            <option value="">--Select Course--</option>
+            <option>HTML & CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>C++</option>
+            <option>Data Structures</option>
+        </select>
+
+        <label>Gender</label>
+        <div class="radio-group">
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+        </div>
+
+        <label>Mode of Learning</label>
+        <div class="radio-group">
+            <input type="radio" name="mode"> Online
+            <input type="radio" name="mode"> Offline
+        </div>
+
+        <label>Address</label>
+        <textarea rows="4" placeholder="Enter your address"></textarea>
+
+        <button type="submit">Register</button>
+
+    </form>
+</div>
+
+</body>
+</html>
